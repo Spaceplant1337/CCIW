@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Onlineshop</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+<h1>Onlineshop</h1>
+<article>
+    <div class="grid-container">
+        <div class="grid-item">
+            <form method="post" action="main.php">
+                <img src="../Image/ISS.jpg">
+                <section>Dieses Produkt muss jeder kaufen</section>
+                <p>9,99€</p>
+                <input type="hidden" name="action" value="add">
+                <input type="hidden" name="product_id" value="1">
+                <input type="hidden" name="product_name" value="ISS">
+                <input type="hidden" name="product_price" value="9.99">
+                <button type="submit">Hinzufügen</button>
+            </form>
+        </div>
+        <div class="grid-item">
+            <form method="post" action="main.php">
+                <img src="../Image/Mars.jpg">
+                <section>Dieses Produkt muss jeder kaufen</section>
+                <p>12,99€</p>
+                <input type="hidden" name="action" value="add">
+                <input type="hidden" name="product_id" value="2">
+                <input type="hidden" name="product_name" value="Mars">
+                <input type="hidden" name="product_price" value="12.99">
+                <button type="submit">Hinzufügen</button>
+            </form>
+        </div>
+        <div class="grid-item_3">
+            <form method="post" action="main.php">
+                <img src="../Image/Sternenhimmel.jpg">
+                <section>Dieses Produkt muss jeder Kaufen</section>
+                <p>22,99€</p>
+                <input type="hidden" name="action" value="add">
+                <input type="hidden" name="product_id" value="3">
+                <input type="hidden" name="product_name" value="StarSky">
+                <input type="hidden" name="product_price" value="22.99">
+                <button type="submit">Hinzufügen</button>
+            </form>
+        </div>
+        <div class="grid-item_4">
+            <form method="post" action="main.php">
+                <img src="../Image/Sternenhimmel.jpg">
+                <section>Dieses Produkt muss jeder Kaufen</section>
+                <p>22,99€</p>
+                <input type="hidden" name="action" value="add">
+                <input type="hidden" name="product_id" value="4">
+                <input type="hidden" name="product_name" value="StarSky2">
+                <input type="hidden" name="product_price" value="22.99">
+                <button type="submit">Hinzufügen</button>
+            </form>
+        </div>
+    </div>
+</article>
+<a href="main.php">Warenkorb anzeigen</a>
+</body>
+</html>
